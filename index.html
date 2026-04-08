@@ -6,9 +6,15 @@
 <title>AURØN × Editz</title>
 
 <style>
+
+/* Background with overlay */
 body {
-  background: url('https://www.wallpaperflare.com/one-piece-wallpaper-anime-brook-one-piece-franky-one-piece-wallpaper-sfswd.jpg') no-repeat center center fixed;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://www.wallpaperflare.com/one-piece-wallpaper-anime-brook-one-piece-franky-one-piece-wallpaper-sfswd.jpg') no-repeat center center fixed;
   background-size: cover;
+  color: white;
 }
 
 /* Loader */
@@ -34,6 +40,7 @@ body {
 nav {
   padding: 15px;
   background: rgba(0,0,0,0.8);
+  text-align: center;
 }
 
 nav a {
@@ -41,6 +48,7 @@ nav a {
   margin: 15px;
   text-decoration: none;
   font-weight: bold;
+  transition: 0.3s;
 }
 
 nav a:hover {
@@ -50,6 +58,7 @@ nav a:hover {
 /* Hero */
 .hero {
   margin-top: 80px;
+  text-align: center;
 }
 
 .hero h1 {
@@ -62,21 +71,29 @@ nav a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .card {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
   padding: 20px;
   margin: 15px;
   border-radius: 10px;
   transition: 0.3s;
+  text-align: center;
 }
 
 .card:hover {
   transform: scale(1.1);
 }
 
-/* Video Grid */
+/* Video Section */
+.video-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
 .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -92,13 +109,15 @@ nav a:hover {
 
 /* Social */
 .social {
-  margin: 40px;
+  margin: 50px;
+  text-align: center;
 }
 
 .social a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 20px;
+  transition: 0.3s;
 }
 
 .social a:hover {
@@ -109,7 +128,9 @@ nav a:hover {
 footer {
   padding: 20px;
   background: black;
+  text-align: center;
 }
+
 </style>
 </head>
 
@@ -123,33 +144,33 @@ footer {
   <a href="#">Home</a>
   <a href="#videos">Edits</a>
   <a href="#social">Social</a>
-   <a href="#videos">Twixtors</a>
+  <a href="#videos">Twixtors</a>
 </nav>
 
 <div class="hero">
   <h1>AURØN × Editz 🔥</h1>
-  <p>Anime Edits | Twixtors | 4k</p>
+  <p>Anime Edits | Twixtors | 4K</p>
 </div>
 
 <div class="cards">
   <div class="card">
-    <h3>🔥JJK Twixtors</h3>
-    <p>4K</p>
+    <h3>🔥 JJK Twixtors</h3>
+    <p>4K Quality</p>
   </div>
 
   <div class="card">
-    <h3>⚡ONE Piece Twixtors</h3>
+    <h3>⚡ One Piece Twixtors</h3>
     <p>Dark aesthetic energy</p>
   </div>
 
   <div class="card">
-    <h3>💀Demon Slayer Twixtors</h3>
-    <p>60 FPS</p>
+    <h3>💀 Demon Slayer Twixtors</h3>
+    <p>60 FPS Smooth</p>
   </div>
 </div>
 
 <div class="video-section" id="videos">
-  <h2>🎬 On Youtube</h2>
+  <h2>🎬 On YouTube</h2>
 
   <div class="video-grid">
     <iframe src="https://www.youtube.com/embed/AfNFV5xSe44" allowfullscreen></iframe>
